@@ -24,4 +24,18 @@ print("Area of Square:", square.area())
 circle = Circle(5)
 print("Area of Circle:", circle.area()) 
 
-class
+#Error Handling in Python -> 4 
+# try -> except -> else -> finally
+ 
+print("Program Started")
+try:
+    n1=int(input("Enter a number: "))
+    n2=int(input("Enter another number: "))
+    a = n1 / n2
+    print("Result:", a)
+except:
+    print("Error: Division by zero is not allowed.")
+else:
+    print("No errors occurred.")
+finally:
+    print("Program Ended")
