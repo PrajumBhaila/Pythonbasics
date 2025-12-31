@@ -42,18 +42,18 @@ print(a_variable)
 # dictionary -> key value pair collection
 
 #string
-name = " sangam"
+name = " prajum"
 # name-> variable -> ram -> binary -> container = name ->
 print(name)
 details = """
-     hi my name is sangam
+     hi my name is prajum
      i am learning python
      i love coding
 """
 print(details)
 
 #string methods -> \'s, \n, \t
-name = "it \'s  me sangam"
+name = "it \'s  me prajum"
 print(name)
 
 #int
@@ -73,5 +73,5 @@ tuple1 = (1, 2, 3, 4, 5)
 print(tuple1)
 set1 = {1, 2, 3, 4, 5}
 print(set1)
-dict1 = {"name": "sangam", "age": 20, "city": "kathmandu"}
+dict1 = {"name": "prajum", "age": 20, "city": "kathmandu"}
 print(dict1)

@@ -14,11 +14,11 @@ print(type(num4), type(num5))
 
 
 #string manipulation 
-name=  " Sangam shrestha"
+name=  " prajum Bhaila"
 print(name.upper())
 print(name.lower())
 print(name.strip())
-print(name.replace("Sangam", "Piyush"))
+print(name.replace("prajum", "Piyush"))
 
 print(name.split())
 print(name.capitalize())

@@ -49,7 +49,7 @@ print(my_tuple + (6, 7, 8))  # Concatenation
 list_from_tuple = list(my_tuple)  # Converting tuple to list
 print(list_from_tuple)
 list_from_tuple.extend([6, 7, 8])
-my_tuple = tuple(list_from_tuple)  # Converting back to tuple
+my_tuple: tuple[int, ...] = tuple(list_from_tuple)  # Converting back to tuple
 print(my_tuple)
 print(type(my_tuple)) 
 
@@ -79,7 +79,7 @@ print(my_set.difference(set2))  # Difference
 
 
 #dictionary key-value pairs
-my_dict = {'name': 'Sangam',
+my_dict = {'name': 'Prajum',
            'age': 25,
            'city': 'New York'
            }
