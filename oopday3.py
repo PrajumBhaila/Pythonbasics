@@ -23,3 +23,5 @@ square = Square(4)
 print("Area of Square:", square.area())
 circle = Circle(5)
 print("Area of Circle:", circle.area()) 
+
+class
