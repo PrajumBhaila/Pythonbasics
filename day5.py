@@ -112,7 +112,7 @@
 # # ka("moktan", 22)
 # # ka(age = 22, name = "moktan")
 # # 3 default arguments
-# def ka(name="sANGAM", age=15):
+# def ka(name="Prajum", age=15):
 #    print(f"name is {name} and age {age}....")
 
 # ka()
@@ -127,7 +127,7 @@
 # def variablelenargkey(**kwarg):
 #    print(kwarg)
 
-# variablelenargkey(name = "sangam", age="17")
+# variablelenargkey(name = "Prajum", age="17")
 
 
 
